@@ -1,0 +1,74 @@
+html,body{
+    background-image: url("https://png.pngtree.com/thumb_back/fh260/back_our/20190623/ourmid/pngtree-summer-scene-seaside-travel-banner-background-image_252366.jpg");
+   
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    padding: 30px;
+    font-size: 50px;
+    text-align: center;
+    box-sizing: border-box;
+}
+header {
+    font-size: 50px;
+    font-family: Algerian ;
+    text-align: center;
+    text-shadow: 2cm;
+    border: 10px;
+}
+input[type=text]  {
+    width: 20%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 3px solid #ccc;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+    align-content: center;
+}
+input[type=number]  {
+    width: 20%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 3px solid #ccc;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+    align-content: center;
+}
+input[type=email]  {
+    width: 20%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 3px solid #ccc;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+    align-content: center;
+}
+input[type=number]:focus  {
+    border: 3px solid #555;
+}
+input[type=email]:focus  {
+    border: 3px solid #555;
+}
+input[type=text]:focus  {
+    border: 3px solid #555;
+}
+::-webkit-input-placeholder { /* Edge */
+    color: gray;
+}
+:-ms-input-placeholder { /* Internet Explorer */
+    color:gray ;
+}
+::placeholder {
+    color: gray ;
+}
+footer {
+    font-size: 20px;
+    font-family: sans-serif;
+    padding: 50px;
+}
