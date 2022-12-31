@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    
+    <script type="text/javascript">
+        function lettersOnly(input) {
+            var regex = /[^a-z]/gi;
+            input.value = input.value.replace(regex,"");
+        }
+    </script>
+
+   <title>Form</title>
+</head>
+
+<body>
+   <div class="container" mt-3>
+      <header>Trip registration Form for College</header>
+      <form action="action.php" method="post">
+   </div>
+  
+<div>
+Name: <input type="text" name="name" placeholder="First name and Last name" required onkeyup="lettersOnly(this)">  
+</div>
+<br>
+<div>
+Branch: <input type="text" name="branch" onkeyup="lettersOnly(this)">
+</div>
+<br>
+<div>
+Semester: <input type="number" name="semester">
+</div>
+<br>
+<div>
+Roll_No: <input type="number" name="roll_no" required>
+</div>
+<br>
+<div>
+<div> 
+Gender: Male <input type="radio" name="gender" value="m" > Female <input type="radio"
+name="gender" value="f">
+Other <input type="radio" name="gender" value="o" >
+</div>
+<br>
+Phone_No: <input type="number" name="phone_no" required>
+</div>
+<br>
+<div>
+Email: <input type="email" name="email">
+</div>
+<br>
+<div>
+Are you above 18 years?: <input type="checkbox" name="eligibility" checked required>
+</div>
+<br>
+<div>
+Write about your doubts regarding the trip and we'll clarify them in the meeting or we'll send you the mail: <br><textarea name="myText" cols="90"
+rows="3"></textarea>
+</div>
+<br>
+<div>
+<input type="submit" value="Submit Now">
+<input type="reset" value="Reset">
+</div>
+
+<footer> 
+    <a href="#">FAQ</a>
+    <a href="#">Contact Us</a>
+    <i class="glyphicon-envelope"></i>
+</footer>
+
+</body>
+</html>
